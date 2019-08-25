@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(csew.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	  background-attachment: fixed;
+
+}
+.logo img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+ul
+{
+	list-style-type: none;
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+#current{
+	background-color: white;
+	color: black;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+.table{
+	position: absolute;
+	top:30%;
+	left:10%;
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+	  display: inline-block;
+}
